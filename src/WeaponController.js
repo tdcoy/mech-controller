@@ -60,7 +60,6 @@ export const weapon_controller = (() => {
             projectileSpawn.add(this.Parent.Position);
 
             //Need particle effect system
-            //const tracer = 
         }
     }
   }
