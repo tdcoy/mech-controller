@@ -1,0 +1,11 @@
+TODO:
+- character controller
+- enemies
+- hit boxes
+- shooting
+- death
+- ui
+- inventory
+- items
+- spawning
+- extraction
