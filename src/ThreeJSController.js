@@ -1,4 +1,4 @@
-import * as THREE from "three";
+import * as THREE from 'https://unpkg.com/three@0.126.1/build/three.module.js';
 import { entity } from "./Entity";
 import { EffectComposer } from 'three/addons/postprocessing/EffectComposer.js';
 import { RenderPass } from "three/addons/postprocessing/RenderPass.js";
