@@ -1,5 +1,4 @@
 import * as THREE from "three";
-
 import { entity } from "./Entity";
 import { entity_manager } from "./EntityManager";
 import { spawners } from "./Spawner";
