@@ -1,4 +1,4 @@
-import { entity } from "./Entity";
+import { entity } from "./Entity.js";
 
 export const finite_state_machine = (() => {
   class FiniteStateMachine extends entity.Component {

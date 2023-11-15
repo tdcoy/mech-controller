@@ -1,5 +1,5 @@
-import * as THREE from 'https://unpkg.com/three@0.126.1/build/three.module.js';
-import { entity } from "./Entity";
+import * as THREE from "https://unpkg.com/three@0.158.0/build/three.module.js";
+import { entity } from "./Entity.js";
 
 export const basic_rigid_body = (() => {
   class BasicRigidBody extends entity.Component {

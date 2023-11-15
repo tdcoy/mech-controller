@@ -1,7 +1,7 @@
-import * as THREE from 'https://unpkg.com/three@0.126.1/build/three.module.js';
+import * as THREE from "three";
 import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
 import * as SkeletonUtils from "three/addons/utils/SkeletonUtils.js";
-import { entity } from "./Entity";
+import { entity } from "./Entity.js";
 
 export const load_controller = (() => {
   class LoadController extends entity.Component {

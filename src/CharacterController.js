@@ -1,7 +1,7 @@
-import * as THREE from 'https://unpkg.com/three@0.126.1/build/three.module.js';
-import { player_input } from "./PlayerInput";
-import { entity } from "./Entity";
-import { passes } from "./Passes";
+import * as THREE from "https://unpkg.com/three@0.158.0/build/three.module.js";
+import { player_input } from "./PlayerInput.js";
+import { entity } from "./Entity.js";
+import { passes } from "./Passes.js";
 
 export const character_controller = (() => {
   const SPRINT_TIME = 5;

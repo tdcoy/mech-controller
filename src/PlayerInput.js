@@ -1,5 +1,5 @@
-import { entity } from "./Entity";
-import { passes } from "./Passes";
+import { entity } from "./Entity.js";
+import { passes } from "./Passes.js";
 
 export const player_input = (() => {
   const KEYS = {

@@ -1,6 +1,6 @@
-import * as THREE from 'https://unpkg.com/three@0.126.1/build/three.module.js';
-import { entity } from "./Entity";
-import { passes } from "./Passes";
+import * as THREE from "three";
+import { entity } from "./Entity.js";
+import { passes } from "./Passes.js";
 
 export const weapon_controller = (() => {
   const COOL_DOWN = 0.4;

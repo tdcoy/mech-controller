@@ -1,6 +1,6 @@
-import * as THREE from 'https://unpkg.com/three@0.126.1/build/three.module.js';
-import { entity } from "./Entity";
-import { character_fsm } from "./CharacterFSM";
+import * as THREE from "https://unpkg.com/three@0.158.0/build/three.module.js";
+import { entity } from "./Entity.js";
+import { character_fsm } from "./CharacterFSM.js";
 import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
 
 export const animator_controller = (() => {

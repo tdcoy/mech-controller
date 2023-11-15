@@ -1,5 +1,5 @@
-import { finite_state_machine } from "./FiniteStateMachine";
-import { player_state } from "./PlayerStates";
+import { finite_state_machine } from "./FiniteStateMachine.js";
+import { player_state } from "./PlayerStates.js";
 
 export const character_fsm = (() => {
   class CharacterFSM extends finite_state_machine.FiniteStateMachine {
@@ -18,5 +18,4 @@ export const character_fsm = (() => {
   return {
     CharacterFSM: CharacterFSM,
   };
-
 })();

@@ -1,12 +1,11 @@
-//import * as THREE from "three";
-import * as THREE from 'https://unpkg.com/three@0.126.1/build/three.module.js';
-import { entity } from "./Entity";
-import { entity_manager } from "./EntityManager";
-import { spawners } from "./Spawner";
-import { threejs_controller } from "./ThreeJSController";
-import { ammojs_component } from "./AmmoJSComponent";
-import { load_controller } from "./LoadController";
-import { PointerLockControls } from "three/addons/controls/PointerLockControls.js";
+import * as THREE from "three";
+import { entity } from "./Entity.js";
+import { entity_manager } from "./EntityManager.js";
+import { spawners } from "./Spawner.js";
+import { threejs_controller } from "./ThreeJSController.js";
+import { ammojs_component } from "./AmmoJSComponent.js";
+import { load_controller } from "./LoadController.js";
+import { PointerLockControls } from 'three/addons/controls/PointerLockControls.js';
 
 class Demo {
   constructor() {

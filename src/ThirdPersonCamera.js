@@ -1,7 +1,7 @@
-import * as THREE from 'https://unpkg.com/three@0.126.1/build/three.module.js';
-import { math } from "./math";
-import { entity } from "./Entity";
-import { passes } from "./Passes";
+import * as THREE from "three";
+import { math } from "./math.js";
+import { entity } from "./Entity.js";
+import { passes } from "./Passes.js";
 
 export const third_person_camera = (() => {
   class ThirdPersonCamera extends entity.Component {

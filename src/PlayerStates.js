@@ -1,4 +1,4 @@
-import { player_input } from "./PlayerInput";
+import { player_input } from "./PlayerInput.js";
 
 export const player_state = (() => {
   class State {

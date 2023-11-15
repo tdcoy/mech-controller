@@ -1,4 +1,4 @@
-import { entity } from "./Entity";
+import { entity } from "./Entity.js";
 
 export const kinematic_character_controller = (() => {
   class KinematicCharacterController extends entity.Component {

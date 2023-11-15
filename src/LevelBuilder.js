@@ -1,8 +1,7 @@
-import * as THREE from 'https://unpkg.com/three@0.126.1/build/three.module.js';
-import { entity } from "./Entity";
-import { render_component } from "./RenderComponent";
-import { basic_rigid_body } from "./BasicRigidBody";
-import { mesh_rigid_body } from "./MeshRigidBody";
+import * as THREE from "three";
+import { entity } from "./Entity.js";
+import { render_component } from "./RenderComponent.js";
+import { mesh_rigid_body } from "./MeshRigidBody.js";
 
 export const level_builder = (() => {
   class LevelBuilder extends entity.Component {

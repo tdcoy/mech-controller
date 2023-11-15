@@ -1,4 +1,4 @@
-import * as THREE from 'https://unpkg.com/three@0.126.1/build/three.module.js';
+import * as THREE from "three";
 import { entity } from "./Entity.js";
 import { enemy_state } from "./EnemyState.js";
 import { finite_state_machine } from "./FiniteStateMachine.js";
